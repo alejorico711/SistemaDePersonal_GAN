@@ -1,0 +1,1 @@
+IDTarea;DescripcionTarea;IDArea;DNIEmpleado;FechaAsignacion;Estado

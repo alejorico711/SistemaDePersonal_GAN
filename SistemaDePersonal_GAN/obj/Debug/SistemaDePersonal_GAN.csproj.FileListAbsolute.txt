@@ -1,0 +1,11 @@
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\bin\Debug\SistemaDePersonal_GAN.exe.config
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\bin\Debug\SistemaDePersonal_GAN.exe
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\bin\Debug\SistemaDePersonal_GAN.pdb
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.csproj.AssemblyReference.cache
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.Form1.resources
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.Properties.Resources.resources
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.csproj.GenerateResource.cache
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.csproj.CoreCompileInputs.cache
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.exe
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.pdb
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.exe.config
