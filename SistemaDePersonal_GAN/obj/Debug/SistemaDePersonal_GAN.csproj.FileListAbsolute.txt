@@ -9,3 +9,6 @@ C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debu
 C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.exe
 C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.pdb
 C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.exe.config
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.FRMAsignacion.resources
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.FRMPrincipal.resources
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.FRMRegistro.resources

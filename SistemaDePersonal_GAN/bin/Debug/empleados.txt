@@ -1,1 +1,1 @@
-DNI;Nombre;Apellido;FechaIngreso;IDSupervisor;IDAreaEspecifica;IDsAreasExtra
+DNI;IDSupervisor;IDArea;Estado

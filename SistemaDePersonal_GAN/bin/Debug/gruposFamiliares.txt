@@ -1,1 +1,4 @@
-DNIEmpleado;IDFamiliar;Nombre;Parentesco;FechaNacimiento
+DNIEmpleado;IDFamiliar;Nombre;Apellido;Relacion;FechaNacimiento
+47190174;1;Lautaro;Rico;hermano;25/04/2008
+47190174;2;Carina;Roqueiro;madre;13/06/1978
+47190174;3;Christian;Rico;padre;9/07/1976

@@ -1,2 +1,2 @@
-DNI;Contraseña
-47190174;47190174
+DNI;Contraseña;Nivel(1-administrador, 2-supervisor, 3-empleado)
+47190174;47190174;1

@@ -1,5 +1,1 @@
 IDArea;NombreArea;Descripcion
-A01;Logística;Área encargada de la gestión de inventarios, almacenes y transporte.
-A02;Atención al Cliente;Departamento responsable de la relación con los clientes.
-A03;Procesos;Encargada de la mejora continua y eficiencia operativa.
-A04;Mantenimiento;Área que se ocupa de la infraestructura y equipos de la empresa.

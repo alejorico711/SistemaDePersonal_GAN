@@ -16,6 +16,9 @@ namespace SistemaDePersonal_GAN
         public Form1()
         {
             InitializeComponent();
+            panelTop.MouseDown += new MouseEventHandler(panelTop_MouseDown);
+            panelTop.MouseMove += new MouseEventHandler(panelTop_MouseMove);
+            panelTop.MouseUp += new MouseEventHandler(panelTop_MouseUp);
             txtPassword.UseSystemPasswordChar = true;
         }
 
@@ -35,17 +38,72 @@ namespace SistemaDePersonal_GAN
                     {
                         if (vl[1] == txtPassword.Text)
                         {
-                            MessageBox.Show("entra");
+                            FRMPrincipal fRMPrincipal = new FRMPrincipal();
+                            fRMPrincipal.Show();
+                            this.Hide();
                         }
                         else
                         {
                             MessageBox.Show("Contraseña incorrecta");
                             txtPassword.Text = string.Empty;
+                            
                         }
                     }
                     linea = sr.ReadLine();
                 }
             }
+        }
+        private void pictureBox3_Click_1(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.WindowState = FormWindowState.Minimized;
+        }
+
+        private bool dragging = false;
+        private Point dragCursorPoint;
+        private Point dragFormPoint;
+
+        private void panelTop_MouseDown(object sender, MouseEventArgs e)
+        {
+            if (e.Button == MouseButtons.Left)
+            {
+                dragging = true;
+                dragCursorPoint = Cursor.Position;
+                dragFormPoint = this.Location;
+            }
+        }
+
+        private void panelTop_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (dragging)
+            {
+                Point diff = Point.Subtract(Cursor.Position, new Size(dragCursorPoint));
+                this.Location = Point.Add(dragFormPoint, new Size(diff));
+            }
+        }
+
+        private void panelTop_MouseUp(object sender, MouseEventArgs e)
+        {
+            dragging = false;
+        }
+
+        private void txtUsuario_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
+            {
+                e.Handled = true; // Cancela la tecla si no es un número o control
+            }
+        }
+
+        private void btnRegistrarse_Click(object sender, EventArgs e)
+        {
+            FRMRegistro f = new FRMRegistro();
+            f.Show();
+            this.Hide();
         }
     }
 }

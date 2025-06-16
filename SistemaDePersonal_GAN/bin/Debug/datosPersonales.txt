@@ -1,0 +1,2 @@
+DNI;Nombre;Apellido;Email;FechaIngreso
+47190174;Alejo;Rico;alejorico711@gmail.com;12/05/2006
