@@ -2,3 +2,8 @@ DNIEmpleado;IDFamiliar;Nombre;Apellido;Relacion;FechaNacimiento
 47190174;1;Lautaro;Rico;hermano;25/04/2008
 47190174;2;Carina;Roqueiro;madre;13/06/1978
 47190174;3;Christian;Rico;padre;9/07/1976
+46947544;1;olivia;gomez;Hermano;16/06/2025
+48648465;1;Alejo;Rico;Hermano;16/06/2025
+48648465;2;Carina;Roqueiro;Madre;16/06/2025
+48648465;3;Christian;Rico;Padre;16/06/2025
+94958731;1;Paola Noelia;Aramberi;Madre;01/01/1989

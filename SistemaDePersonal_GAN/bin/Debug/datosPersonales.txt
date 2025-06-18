@@ -1,2 +1,5 @@
 DNI;Nombre;Apellido;Email;FechaIngreso
 47190174;Alejo;Rico;alejorico711@gmail.com;12/05/2006
+46947544;jeremias;gomez;jeregomez1@gmail.com;16/06/2025
+48648465;Lautaro;Rico;lautyrico92@gmail.com;16/06/2025
+94958731;Nicolas;Antonopulos;antonopulosnico@gmail.com;18/06/2025

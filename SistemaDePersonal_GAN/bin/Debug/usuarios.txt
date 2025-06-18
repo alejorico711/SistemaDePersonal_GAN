@@ -1,2 +1,5 @@
 DNI;Contraseña;Nivel(1-administrador, 2-supervisor, 3-empleado)
 47190174;47190174;1
+46947544;46947544;3
+48648465;48648465;3
+94958731;94958731;3

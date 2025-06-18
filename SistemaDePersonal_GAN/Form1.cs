@@ -18,54 +18,77 @@ namespace SistemaDePersonal_GAN
             InitializeComponent();
             panelTop.MouseDown += new MouseEventHandler(panelTop_MouseDown);
             panelTop.MouseMove += new MouseEventHandler(panelTop_MouseMove);
-            panelTop.MouseUp += new MouseEventHandler(panelTop_MouseUp);
-            txtPassword.UseSystemPasswordChar = true;
+            panelTop.MouseUp += new MouseEventHandler(panelTop_MouseUp);        //3 eventos para poder arrastrar la ventana, ya que eliminamos los bordes de los formularios
+            txtPassword.UseSystemPasswordChar = true;                           //propiedad para que se vean los puntitos en vez de la contraseña
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            string linea = "";
-            string[] vl = new string[0];
-
-            using (FileStream fs = new FileStream("usuarios.txt", FileMode.Open, FileAccess.Read))
-            using (StreamReader sr = new StreamReader(fs))
+            if (string.IsNullOrEmpty(txtPassword.Text)==false || string.IsNullOrEmpty(txtUsuario.Text)==false)  //valido que el dni y la contraseña noe sten vacios
             {
-                linea = sr.ReadLine();
-                while (linea != null)
+                if (txtUsuario.Text.Length < 8 && txtPassword.Text.Length < 8)      //valido que el dni y la contraseña no sean menores a 8 caracteres
                 {
-                    vl = linea.Split(';');
-                    if (vl[0] == txtUsuario.Text)
+                    MessageBox.Show("Ingrese un nombre de usuario y una contraseña valida");    //advertencia para ingresar un usuario valido
+                    txtPassword.Text = string.Empty;
+                    txtUsuario.Text = string.Empty;    //vacio los controles
+                }
+                else
+                {
+                    string linea = "";
+                    string[] vl = new string[0];
+                    bool noExiste = true;              //booleano para identificar si el usuario no existe
+
+                    using (FileStream fs = new FileStream("usuarios.txt", FileMode.Open, FileAccess.Read))
+                    using (StreamReader sr = new StreamReader(fs))
                     {
-                        if (vl[1] == txtPassword.Text)
+                        linea = sr.ReadLine();
+                        while (linea != null)
                         {
-                            FRMPrincipal fRMPrincipal = new FRMPrincipal();
-                            fRMPrincipal.Show();
-                            this.Hide();
+                            vl = linea.Split(';');
+                            if (vl[0] == txtUsuario.Text)
+                            {
+                                noExiste = false;
+                                if (vl[1] == txtPassword.Text)
+                                {
+                                    FRMPrincipal fRMPrincipal = new FRMPrincipal();
+                                    fRMPrincipal.Show();
+                                    this.Hide();
+                                }
+                                else          //condicional para validar que la contraseña sea correcta
+                                {
+                                    MessageBox.Show("Contraseña incorrecta");
+                                    txtPassword.Text = string.Empty;
+                                }
+                            }
+                            linea = sr.ReadLine();
                         }
-                        else
+                        if (noExiste)
                         {
-                            MessageBox.Show("Contraseña incorrecta");
+                            MessageBox.Show("Usuario no encontrado");   //vacio los controles y aviso que el usuario no fue encontrado
                             txtPassword.Text = string.Empty;
-                            
+                            txtUsuario.Text = string.Empty;
                         }
                     }
-                    linea = sr.ReadLine();
                 }
+            }
+            else
+            {
+                MessageBox.Show("Complete todos los campos");
             }
         }
         private void pictureBox3_Click_1(object sender, EventArgs e)
         {
-            Application.Exit();
+            Application.Exit(); //cierra la aplicacion cuando se hace click sobre el picturebox
         }
 
         private void pictureBox4_Click(object sender, EventArgs e)
         {
-            this.WindowState = FormWindowState.Minimized;
+            this.WindowState = FormWindowState.Minimized; //minimiza la aplicacion cuando se hace click sobre el picturebox
         }
 
-        private bool dragging = false;
-        private Point dragCursorPoint;
-        private Point dragFormPoint;
+        private bool dragging = false;  
+        private Point dragCursorPoint;   //variables y eventos que hacen posible el arrastre de la ventana
+        private Point dragFormPoint;      
 
         private void panelTop_MouseDown(object sender, MouseEventArgs e)
         {
@@ -95,13 +118,13 @@ namespace SistemaDePersonal_GAN
         {
             if (!char.IsDigit(e.KeyChar) && !char.IsControl(e.KeyChar))
             {
-                e.Handled = true; // Cancela la tecla si no es un número o control
+                e.Handled = true; //cancela la tecla si no es un número o control, es decir, evita que se pongan letras en el textbox DNI
             }
         }
 
         private void btnRegistrarse_Click(object sender, EventArgs e)
         {
-            FRMRegistro f = new FRMRegistro();
+            FRMRegistro f = new FRMRegistro();        //abre el formulario de registro
             f.Show();
             this.Hide();
         }
