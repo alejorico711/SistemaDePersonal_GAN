@@ -1,1 +1,2 @@
-IDArea;NombreArea;Descripcion
+IDArea;NombreArea;Descripcion;IDSupervisor
+A01;Informatica;Area encargada de las compus;46419673

@@ -50,11 +50,37 @@ namespace SistemaDePersonal_GAN
                                 noExiste = false;
                                 if (vl[1] == txtPassword.Text)
                                 {
-                                    FRMPrincipal fRMPrincipal = new FRMPrincipal();
-                                    fRMPrincipal.Show();
-                                    this.Hide();
+                                    switch (Convert.ToInt32(vl[2]))
+                                    {
+                                        case 0:
+                                            MessageBox.Show("Usuario no dado de alta");
+                                            txtPassword.Text = string.Empty;
+                                            txtUsuario.Text = string.Empty;
+                                            break;
+
+                                        case 1:
+                                            //abre formulario del administrador
+                                            FRMAdmin f = new FRMAdmin();
+                                            f.Show();
+                                            this.Hide();
+                                            break;
+
+                                        case 2:
+                                            //abre formulario del supervisor
+                                            break;
+
+                                        case 3:
+                                            //abre formulario de empleado
+                                            break;
+
+                                        default:
+                                            MessageBox.Show("Ocurrio un error");
+                                            Application.Exit();
+                                            break;
+                                    }
+                                    
                                 }
-                                else          //condicional para validar que la contraseña sea correcta
+                                else //condicional para validar que la contraseña sea correcta
                                 {
                                     MessageBox.Show("Contraseña incorrecta");
                                     txtPassword.Text = string.Empty;

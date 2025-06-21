@@ -46,42 +46,82 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Clases\ClsEmpleado.cs" />
+    <Compile Include="Clases\ClsUsuario.cs" />
+    <Compile Include="Clases\ClsArea.cs" />
+    <Compile Include="Clases\ClsPersona.cs" />
+    <Compile Include="Formularios\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
+    <Compile Include="Formularios\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="FRMAsignacion.cs">
+    <Compile Include="Formularios\FRMAltaEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FRMAsignacion.Designer.cs">
-      <DependentUpon>FRMAsignacion.cs</DependentUpon>
+    <Compile Include="Formularios\FRMAltaEmpleados.Designer.cs">
+      <DependentUpon>FRMAltaEmpleados.cs</DependentUpon>
     </Compile>
-    <Compile Include="FRMPrincipal.cs">
+    <Compile Include="Formularios\FRMAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FRMPrincipal.Designer.cs">
-      <DependentUpon>FRMPrincipal.cs</DependentUpon>
+    <Compile Include="Formularios\FRMAdmin.Designer.cs">
+      <DependentUpon>FRMAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="FRMRegistro.cs">
+    <Compile Include="Formularios\FRMBajaEmpledos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FRMRegistro.Designer.cs">
+    <Compile Include="Formularios\FRMBajaEmpledos.Designer.cs">
+      <DependentUpon>FRMBajaEmpledos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FRMListaAreas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FRMListaAreas.Designer.cs">
+      <DependentUpon>FRMListaAreas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FRMListaEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FRMListaEmpleados.Designer.cs">
+      <DependentUpon>FRMListaEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FRMListaSupervisores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FRMListaSupervisores.Designer.cs">
+      <DependentUpon>FRMListaSupervisores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\FRMRegistro.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\FRMRegistro.Designer.cs">
       <DependentUpon>FRMRegistro.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
+    <EmbeddedResource Include="Formularios\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FRMAsignacion.resx">
-      <DependentUpon>FRMAsignacion.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\FRMAltaEmpleados.resx">
+      <DependentUpon>FRMAltaEmpleados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FRMPrincipal.resx">
-      <DependentUpon>FRMPrincipal.cs</DependentUpon>
+    <EmbeddedResource Include="Formularios\FRMAdmin.resx">
+      <DependentUpon>FRMAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FRMRegistro.resx">
+    <EmbeddedResource Include="Formularios\FRMBajaEmpledos.resx">
+      <DependentUpon>FRMBajaEmpledos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FRMListaAreas.resx">
+      <DependentUpon>FRMListaAreas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FRMListaEmpleados.resx">
+      <DependentUpon>FRMListaEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FRMListaSupervisores.resx">
+      <DependentUpon>FRMListaSupervisores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\FRMRegistro.resx">
       <DependentUpon>FRMRegistro.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
@@ -104,5 +144,6 @@
   <ItemGroup>
     <None Include="Properties\logo.png" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

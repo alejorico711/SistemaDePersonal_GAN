@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BF290A20-9446-46AA-BECA-66A64C3B9C32}|SistemaDePersonal_GAN\\SistemaDePersonal_GAN.csproj|c:\\users\\alejo\\source\\repos\\sistemadepersonal_gan\\sistemadepersonal_gan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF290A20-9446-46AA-BECA-66A64C3B9C32}|SistemaDePersonal_GAN\\SistemaDePersonal_GAN.csproj|solutionrelative:sistemadepersonal_gan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BF290A20-9446-46AA-BECA-66A64C3B9C32}|SistemaDePersonal_GAN\\SistemaDePersonal_GAN.csproj|c:\\users\\alejo\\source\\repos\\sistemadepersonal_gan\\sistemadepersonal_gan\\formularios\\frmbajaempledos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{BF290A20-9446-46AA-BECA-66A64C3B9C32}|SistemaDePersonal_GAN\\SistemaDePersonal_GAN.csproj|solutionrelative:sistemadepersonal_gan\\formularios\\frmbajaempledos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BF290A20-9446-46AA-BECA-66A64C3B9C32}|SistemaDePersonal_GAN\\SistemaDePersonal_GAN.csproj|c:\\users\\alejo\\source\\repos\\sistemadepersonal_gan\\sistemadepersonal_gan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BF290A20-9446-46AA-BECA-66A64C3B9C32}|SistemaDePersonal_GAN\\SistemaDePersonal_GAN.csproj|solutionrelative:sistemadepersonal_gan\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF290A20-9446-46AA-BECA-66A64C3B9C32}|SistemaDePersonal_GAN\\SistemaDePersonal_GAN.csproj|c:\\users\\alejo\\source\\repos\\sistemadepersonal_gan\\sistemadepersonal_gan\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BF290A20-9446-46AA-BECA-66A64C3B9C32}|SistemaDePersonal_GAN\\SistemaDePersonal_GAN.csproj|solutionrelative:sistemadepersonal_gan\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BF290A20-9446-46AA-BECA-66A64C3B9C32}|SistemaDePersonal_GAN\\SistemaDePersonal_GAN.csproj|c:\\users\\alejo\\source\\repos\\sistemadepersonal_gan\\sistemadepersonal_gan\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{BF290A20-9446-46AA-BECA-66A64C3B9C32}|SistemaDePersonal_GAN\\SistemaDePersonal_GAN.csproj|solutionrelative:sistemadepersonal_gan\\frmregistro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{BF290A20-9446-46AA-BECA-66A64C3B9C32}|SistemaDePersonal_GAN\\SistemaDePersonal_GAN.csproj|c:\\users\\alejo\\source\\repos\\sistemadepersonal_gan\\sistemadepersonal_gan\\formularios\\frmbajaempledos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF290A20-9446-46AA-BECA-66A64C3B9C32}|SistemaDePersonal_GAN\\SistemaDePersonal_GAN.csproj|solutionrelative:sistemadepersonal_gan\\formularios\\frmbajaempledos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,51 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\SistemaDePersonal_GAN\\Form1.cs",
-              "RelativeDocumentMoniker": "SistemaDePersonal_GAN\\Form1.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\SistemaDePersonal_GAN\\Form1.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaDePersonal_GAN\\Form1.cs [Dise\u00F1o]",
+              "Title": "FRMBajaEmpledos.cs",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\SistemaDePersonal_GAN\\Formularios\\FRMBajaEmpledos.cs",
+              "RelativeDocumentMoniker": "SistemaDePersonal_GAN\\Formularios\\FRMBajaEmpledos.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\SistemaDePersonal_GAN\\Formularios\\FRMBajaEmpledos.cs",
+              "RelativeToolTip": "SistemaDePersonal_GAN\\Formularios\\FRMBajaEmpledos.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAUwDwAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T18:57:01.558Z",
-              "EditorCaption": " [Dise\u00F1o]"
+              "WhenOpened": "2025-06-21T20:07:54.651Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\SistemaDePersonal_GAN\\Form1.cs",
-              "RelativeDocumentMoniker": "SistemaDePersonal_GAN\\Form1.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\SistemaDePersonal_GAN\\Form1.cs",
-              "RelativeToolTip": "SistemaDePersonal_GAN\\Form1.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAC4AAAAyAAAAAAAAAA==",
+              "Title": "FRMBajaEmpledos.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\SistemaDePersonal_GAN\\Formularios\\FRMBajaEmpledos.cs",
+              "RelativeDocumentMoniker": "SistemaDePersonal_GAN\\Formularios\\FRMBajaEmpledos.cs",
+              "ToolTip": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\SistemaDePersonal_GAN\\Formularios\\FRMBajaEmpledos.cs [Dise\u00F1o]",
+              "RelativeToolTip": "SistemaDePersonal_GAN\\Formularios\\FRMBajaEmpledos.cs [Dise\u00F1o]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T18:16:48.286Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FRMRegistro.cs",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\SistemaDePersonal_GAN\\FRMRegistro.cs",
-              "RelativeDocumentMoniker": "SistemaDePersonal_GAN\\FRMRegistro.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\SistemaDePersonal_GAN\\FRMRegistro.cs",
-              "RelativeToolTip": "SistemaDePersonal_GAN\\FRMRegistro.cs",
-              "ViewState": "AgIAAJMAAAAAAAAAAAAIwO4AAACdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T18:16:42.801Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FRMRegistro.cs [Dise\u00F1o]",
-              "DocumentMoniker": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\SistemaDePersonal_GAN\\FRMRegistro.cs",
-              "RelativeDocumentMoniker": "SistemaDePersonal_GAN\\FRMRegistro.cs",
-              "ToolTip": "C:\\Users\\alejo\\source\\repos\\SistemaDePersonal_GAN\\SistemaDePersonal_GAN\\FRMRegistro.cs [Dise\u00F1o]",
-              "RelativeToolTip": "SistemaDePersonal_GAN\\FRMRegistro.cs [Dise\u00F1o]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-06-18T18:18:44.058Z",
+              "WhenOpened": "2025-06-21T20:07:42.78Z",
               "EditorCaption": " [Dise\u00F1o]"
             }
           ]

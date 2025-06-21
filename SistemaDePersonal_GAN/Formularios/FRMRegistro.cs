@@ -226,7 +226,7 @@ namespace SistemaDePersonal_GAN
                             using (StreamWriter sw = new StreamWriter(fs))
                             {//me escribe el archivo de usuarios
                                 //DNI; Contraseña; Nivel(1 - administrador, 2 - supervisor, 3 - empleado)
-                                sw.Write(Environment.NewLine + txtDNI.Text + ';' + txtContraseña.Text + ';' + "3");
+                                sw.Write(Environment.NewLine + txtDNI.Text + ';' + txtContraseña.Text + ';' + "0");
                             }
 
                             using (FileStream fs = new FileStream("datosPersonales.txt", FileMode.Append, FileAccess.Write))

@@ -9,6 +9,10 @@ C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debu
 C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.exe
 C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.pdb
 C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.exe.config
-C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.FRMAsignacion.resources
-C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.FRMPrincipal.resources
 C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.FRMRegistro.resources
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.FRMAdmin.resources
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.FRMAltaEmpleados.resources
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.Formularios.FRMListaAreas.resources
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.Formularios.FRMListaEmpleados.resources
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.Formularios.FRMListaSupervisores.resources
+C:\Users\alejo\source\repos\SistemaDePersonal_GAN\SistemaDePersonal_GAN\obj\Debug\SistemaDePersonal_GAN.Formularios.FRMBajaEmpledos.resources

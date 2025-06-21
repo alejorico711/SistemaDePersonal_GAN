@@ -1,5 +1,6 @@
 DNI;Nombre;Apellido;Email;FechaIngreso
+12345678;NombreFalso;ApellidoFalso;EmailFalso;12/05/2006
 47190174;Alejo;Rico;alejorico711@gmail.com;12/05/2006
-46947544;jeremias;gomez;jeregomez1@gmail.com;16/06/2025
-48648465;Lautaro;Rico;lautyrico92@gmail.com;16/06/2025
-94958731;Nicolas;Antonopulos;antonopulosnico@gmail.com;18/06/2025
+46419673;Julian;Ortiz;juliortiz1@gmail.com;16/04/2005
+94958731;Nicolas;Antonopulos;nicoantonopulos1@gmail.com;15/09/2005
+23456789;NombrePrueba;ApellidoPureba;blabla;21/06/2025

@@ -1,6 +1,6 @@
 ﻿namespace SistemaDePersonal_GAN
 {
-    partial class FRMPrincipal
+    partial class FRMAdmin
     {
         /// <summary>
         /// Required designer variable.
@@ -28,38 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRMPrincipal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FRMAdmin));
             this.panelMenu = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnBajaEmpleados = new System.Windows.Forms.Button();
+            this.btnListaAreas = new System.Windows.Forms.Button();
+            this.btnListaSupervisores = new System.Windows.Forms.Button();
+            this.btnListaEmpleados = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelHijos = new System.Windows.Forms.Panel();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panelTop = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelHijos.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panelTop.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // panelMenu
             // 
             this.panelMenu.AutoScroll = true;
             this.panelMenu.BackColor = System.Drawing.Color.Linen;
-            this.panelMenu.Controls.Add(this.button5);
-            this.panelMenu.Controls.Add(this.button4);
-            this.panelMenu.Controls.Add(this.button3);
-            this.panelMenu.Controls.Add(this.button2);
+            this.panelMenu.Controls.Add(this.btnBajaEmpleados);
+            this.panelMenu.Controls.Add(this.btnListaAreas);
+            this.panelMenu.Controls.Add(this.btnListaSupervisores);
+            this.panelMenu.Controls.Add(this.btnListaEmpleados);
             this.panelMenu.Controls.Add(this.button1);
             this.panelMenu.Controls.Add(this.panelLogo);
             this.panelMenu.Dock = System.Windows.Forms.DockStyle.Left;
@@ -68,65 +68,69 @@
             this.panelMenu.Size = new System.Drawing.Size(250, 600);
             this.panelMenu.TabIndex = 0;
             // 
-            // button5
+            // btnBajaEmpleados
             // 
-            this.button5.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button5.Location = new System.Drawing.Point(0, 280);
-            this.button5.Name = "button5";
-            this.button5.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button5.Size = new System.Drawing.Size(250, 45);
-            this.button5.TabIndex = 5;
-            this.button5.Text = "button5";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.UseVisualStyleBackColor = true;
+            this.btnBajaEmpleados.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnBajaEmpleados.FlatAppearance.BorderSize = 0;
+            this.btnBajaEmpleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnBajaEmpleados.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnBajaEmpleados.Location = new System.Drawing.Point(0, 280);
+            this.btnBajaEmpleados.Name = "btnBajaEmpleados";
+            this.btnBajaEmpleados.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnBajaEmpleados.Size = new System.Drawing.Size(250, 45);
+            this.btnBajaEmpleados.TabIndex = 5;
+            this.btnBajaEmpleados.Text = "Baja de empleados";
+            this.btnBajaEmpleados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnBajaEmpleados.UseVisualStyleBackColor = true;
+            this.btnBajaEmpleados.Click += new System.EventHandler(this.btnBajaEmpleados_Click);
             // 
-            // button4
+            // btnListaAreas
             // 
-            this.button4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button4.Location = new System.Drawing.Point(0, 235);
-            this.button4.Name = "button4";
-            this.button4.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button4.Size = new System.Drawing.Size(250, 45);
-            this.button4.TabIndex = 4;
-            this.button4.Text = "button4";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnListaAreas.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnListaAreas.FlatAppearance.BorderSize = 0;
+            this.btnListaAreas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListaAreas.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnListaAreas.Location = new System.Drawing.Point(0, 235);
+            this.btnListaAreas.Name = "btnListaAreas";
+            this.btnListaAreas.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnListaAreas.Size = new System.Drawing.Size(250, 45);
+            this.btnListaAreas.TabIndex = 4;
+            this.btnListaAreas.Text = "Listado de areas";
+            this.btnListaAreas.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnListaAreas.UseVisualStyleBackColor = true;
+            this.btnListaAreas.Click += new System.EventHandler(this.btnListaAreas_Click);
             // 
-            // button3
+            // btnListaSupervisores
             // 
-            this.button3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button3.Location = new System.Drawing.Point(0, 190);
-            this.button3.Name = "button3";
-            this.button3.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button3.Size = new System.Drawing.Size(250, 45);
-            this.button3.TabIndex = 3;
-            this.button3.Text = "button3";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.UseVisualStyleBackColor = true;
+            this.btnListaSupervisores.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnListaSupervisores.FlatAppearance.BorderSize = 0;
+            this.btnListaSupervisores.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListaSupervisores.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnListaSupervisores.Location = new System.Drawing.Point(0, 190);
+            this.btnListaSupervisores.Name = "btnListaSupervisores";
+            this.btnListaSupervisores.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnListaSupervisores.Size = new System.Drawing.Size(250, 45);
+            this.btnListaSupervisores.TabIndex = 3;
+            this.btnListaSupervisores.Text = "Listado de supervisores";
+            this.btnListaSupervisores.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnListaSupervisores.UseVisualStyleBackColor = true;
+            this.btnListaSupervisores.Click += new System.EventHandler(this.btnListaSupervisores_Click);
             // 
-            // button2
+            // btnListaEmpleados
             // 
-            this.button2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.button2.Location = new System.Drawing.Point(0, 145);
-            this.button2.Name = "button2";
-            this.button2.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
-            this.button2.Size = new System.Drawing.Size(250, 45);
-            this.button2.TabIndex = 2;
-            this.button2.Text = "button2";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.UseVisualStyleBackColor = true;
+            this.btnListaEmpleados.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnListaEmpleados.FlatAppearance.BorderSize = 0;
+            this.btnListaEmpleados.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnListaEmpleados.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.btnListaEmpleados.Location = new System.Drawing.Point(0, 145);
+            this.btnListaEmpleados.Name = "btnListaEmpleados";
+            this.btnListaEmpleados.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
+            this.btnListaEmpleados.Size = new System.Drawing.Size(250, 45);
+            this.btnListaEmpleados.TabIndex = 2;
+            this.btnListaEmpleados.Text = "Listado de empleados";
+            this.btnListaEmpleados.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.btnListaEmpleados.UseVisualStyleBackColor = true;
+            this.btnListaEmpleados.Click += new System.EventHandler(this.btnListaEmpleados_Click);
             // 
             // button1
             // 
@@ -139,7 +143,7 @@
             this.button1.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.button1.Size = new System.Drawing.Size(250, 45);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "Alta de empleados";
             this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
@@ -153,6 +157,16 @@
             this.panelLogo.Size = new System.Drawing.Size(250, 100);
             this.panelLogo.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(12, 6);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(218, 94);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
             // panelHijos
             // 
             this.panelHijos.BackColor = System.Drawing.Color.Black;
@@ -162,6 +176,16 @@
             this.panelHijos.Name = "panelHijos";
             this.panelHijos.Size = new System.Drawing.Size(700, 600);
             this.panelHijos.TabIndex = 1;
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
+            this.pictureBox2.Location = new System.Drawing.Point(241, 253);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(218, 94);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 1;
+            this.pictureBox2.TabStop = false;
             // 
             // panelTop
             // 
@@ -198,27 +222,7 @@
             this.pictureBox3.TabStop = false;
             this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(241, 253);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(218, 94);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(12, 6);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(218, 94);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // FRMPrincipal
+            // FRMAdmin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -228,17 +232,17 @@
             this.Controls.Add(this.panelMenu);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.MinimumSize = new System.Drawing.Size(950, 600);
-            this.Name = "FRMPrincipal";
+            this.Name = "FRMAdmin";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FRMPrincipal";
             this.panelMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelHijos.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panelTop.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -250,10 +254,10 @@
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Panel panelHijos;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnBajaEmpleados;
+        private System.Windows.Forms.Button btnListaAreas;
+        private System.Windows.Forms.Button btnListaSupervisores;
+        private System.Windows.Forms.Button btnListaEmpleados;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Panel panelTop;
         private System.Windows.Forms.PictureBox pictureBox3;
