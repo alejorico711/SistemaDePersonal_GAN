@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SistemaDePersonal_GAN.Clases;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace SistemaDePersonal_GAN.Formularios
 {
-    public class ClsPersona
+    public abstract class ClsPersona : IABM
     {
         private string _dni;
 
@@ -66,5 +67,9 @@ namespace SistemaDePersonal_GAN.Formularios
         {
             return Nombre + " " + Apellido;
         }
+
+        public abstract void alta();
+
+        public abstract void baja();
     }
 }

@@ -1,1 +1,6 @@
 IDTarea;DescripcionTarea;IDArea;DNIEmpleado;FechaAsignacion;Estado
+01;mensajeria;A01;94958731;11-07-2025;ASIGNADA
+02;limpiar;A01;94958731;12-07-2025;ASIGNADA
+03;trabajar;A01;94958732;13-07-2025;ASIGNADA
+14;implementar;A01;94958742;24-07-2025;ASIGNADA
+21;Cambiar los discos duros de todas las computadoras;A01;47255186;14-07-2025;FINALIZADA

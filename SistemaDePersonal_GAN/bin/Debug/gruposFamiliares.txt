@@ -3,4 +3,7 @@ DNIEmpleado;IDFamiliar;Nombre;Apellido;Relacion;FechaNacimiento
 47190174;2;Carina;Roqueiro;madre;13/06/1978
 47190174;3;Christian;Rico;padre;9/07/1976
 46419673;1;Magali;Ortiz;hermano;17/12/2007
-94958731;1;Lorena;Aramberi;madre;
+94958731;1;Lorena;Aramberi;madre;17/12/2007
+47255186;1;Orlando;Pignatato;Padre;02/01/1975
+47255186;2;Lorena;Fernandez;Madre;02/01/1976
+47255186;3;Guadalupe;Pignataro;Hermano;18/02/2001

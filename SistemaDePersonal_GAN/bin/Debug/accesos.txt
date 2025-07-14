@@ -1,3 +1,0 @@
-DNIempleado;IDarea
-12345678;A01
-23456789;A01

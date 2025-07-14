@@ -1,0 +1,12 @@
+DNI;Nombre;Apellido;Email;FechaIngreso;Area
+46419673;Julián;Ortiz;julioritzi@gmail.com;16/04/2005;NULL
+46519674;María;Luna;marialuna@gmail.com;17/05/2006;A02
+46619675;Pedro;Ramírez;pedroramirez@gmail.com;18/06/2007;A03
+46719676;Laura;Gómez;lauragomez@gmail.com;19/07/2008;A04
+46819677;Carlos;Fernández;carlosfernandez@gmail.com;20/08/2009;A05
+46919678;Ana;Martínez;anamartinez@gmail.com;21/09/2010;A06
+47019679;José;López;joselopez@gmail.com;22/10/2011;A07
+47119680;Lucía;Pérez;luciaperez@gmail.com;23/11/2012;A08
+47219681;Sofía;Rodríguez;sofiardriguez@gmail.com;24/12/2013;A09
+47319682;Juan;García;juangarcia@gmail.com;25/01/2014;A10
+47990183;Isabel;Torres;isabeltorres711@gmail.com;25/03/2016;A01

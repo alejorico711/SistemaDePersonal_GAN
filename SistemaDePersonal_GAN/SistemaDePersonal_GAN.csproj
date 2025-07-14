@@ -50,79 +50,240 @@
     <Compile Include="Clases\ClsUsuario.cs" />
     <Compile Include="Clases\ClsArea.cs" />
     <Compile Include="Clases\ClsPersona.cs" />
-    <Compile Include="Formularios\Form1.cs">
+    <Compile Include="Clases\ClsSupervisor.cs" />
+    <Compile Include="Clases\ClsAdministrador.cs" />
+    <Compile Include="Clases\IABM.cs" />
+    <Compile Include="Clases\DelegadosGlobales.cs" />
+    <Compile Include="Formularios\LOGIN, REGISTRO Y DATOS PERSO\PasswordPrompt.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\Form1.Designer.cs">
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMAltaAdministradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMAltaAdministradores.Designer.cs">
+      <DependentUpon>FRMAltaAdministradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMAltaAreas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMAltaAreas.Designer.cs">
+      <DependentUpon>FRMAltaAreas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMAltaSupervisores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMAltaSupervisores.Designer.cs">
+      <DependentUpon>FRMAltaSupervisores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMBajaAdministradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMBajaAdministradores.Designer.cs">
+      <DependentUpon>FRMBajaAdministradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMBajaAreas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMBajaAreas.Designer.cs">
+      <DependentUpon>FRMBajaAreas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMBajaSupervisores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMBajaSupervisores.Designer.cs">
+      <DependentUpon>FRMBajaSupervisores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMCambioSupervisor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMCambioSupervisor.Designer.cs">
+      <DependentUpon>FRMCambioSupervisor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMListaAdministradores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMListaAdministradores.Designer.cs">
+      <DependentUpon>FRMListaAdministradores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMNuevoSuperuser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMNuevoSuperuser.Designer.cs">
+      <DependentUpon>FRMNuevoSuperuser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMSuperusuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERUSUARIOS\FRMSuperusuario.Designer.cs">
+      <DependentUpon>FRMSuperusuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\EMPLEADOS\FRMTareasEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\EMPLEADOS\FRMTareasEmpleado.Designer.cs">
+      <DependentUpon>FRMTareasEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\LOGIN, REGISTRO Y DATOS PERSO\FRMDatosPersonales.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\LOGIN, REGISTRO Y DATOS PERSO\FRMDatosPersonales.Designer.cs">
+      <DependentUpon>FRMDatosPersonales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SUPERVISORES\FRMListaEmpleadosDeArea.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERVISORES\FRMListaEmpleadosDeArea.Designer.cs">
+      <DependentUpon>FRMListaEmpleadosDeArea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\LOGIN, REGISTRO Y DATOS PERSO\Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\LOGIN, REGISTRO Y DATOS PERSO\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FRMAltaEmpleados.cs">
+    <Compile Include="Formularios\ADMINISTRADORES\FRMAltaEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FRMAltaEmpleados.Designer.cs">
+    <Compile Include="Formularios\ADMINISTRADORES\FRMAltaEmpleados.Designer.cs">
       <DependentUpon>FRMAltaEmpleados.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FRMAdmin.cs">
+    <Compile Include="Formularios\ADMINISTRADORES\FRMAdmin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FRMAdmin.Designer.cs">
+    <Compile Include="Formularios\ADMINISTRADORES\FRMAdmin.Designer.cs">
       <DependentUpon>FRMAdmin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FRMBajaEmpledos.cs">
+    <Compile Include="Formularios\ADMINISTRADORES\FRMBajaEmpledos.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FRMBajaEmpledos.Designer.cs">
+    <Compile Include="Formularios\ADMINISTRADORES\FRMBajaEmpledos.Designer.cs">
       <DependentUpon>FRMBajaEmpledos.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FRMListaAreas.cs">
+    <Compile Include="Formularios\EMPLEADOS\FRMEpleado.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FRMListaAreas.Designer.cs">
+    <Compile Include="Formularios\EMPLEADOS\FRMEpleado.Designer.cs">
+      <DependentUpon>FRMEpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\ADMINISTRADORES\FRMListaAreas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\ADMINISTRADORES\FRMListaAreas.Designer.cs">
       <DependentUpon>FRMListaAreas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FRMListaEmpleados.cs">
+    <Compile Include="Formularios\ADMINISTRADORES\FRMListaEmpleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FRMListaEmpleados.Designer.cs">
+    <Compile Include="Formularios\ADMINISTRADORES\FRMListaEmpleados.Designer.cs">
       <DependentUpon>FRMListaEmpleados.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FRMListaSupervisores.cs">
+    <Compile Include="Formularios\ADMINISTRADORES\FRMListaSupervisores.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FRMListaSupervisores.Designer.cs">
+    <Compile Include="Formularios\ADMINISTRADORES\FRMListaSupervisores.Designer.cs">
       <DependentUpon>FRMListaSupervisores.cs</DependentUpon>
     </Compile>
-    <Compile Include="Formularios\FRMRegistro.cs">
+    <Compile Include="Formularios\LOGIN, REGISTRO Y DATOS PERSO\FRMRegistro.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Formularios\FRMRegistro.Designer.cs">
+    <Compile Include="Formularios\LOGIN, REGISTRO Y DATOS PERSO\FRMRegistro.Designer.cs">
       <DependentUpon>FRMRegistro.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clases\ClsTarea.cs" />
+    <Compile Include="Formularios\SUPERVISORES\FRMAsignarTareas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERVISORES\FRMAsignarTareas.Designer.cs">
+      <DependentUpon>FRMAsignarTareas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SUPERVISORES\FRMSupervisores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERVISORES\FRMSupervisores.Designer.cs">
+      <DependentUpon>FRMSupervisores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\SUPERVISORES\FRMVerTareas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\SUPERVISORES\FRMVerTareas.Designer.cs">
+      <DependentUpon>FRMVerTareas.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Formularios\Form1.resx">
+    <EmbeddedResource Include="Formularios\SUPERUSUARIOS\FRMAltaAdministradores.resx">
+      <DependentUpon>FRMAltaAdministradores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERUSUARIOS\FRMAltaAreas.resx">
+      <DependentUpon>FRMAltaAreas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERUSUARIOS\FRMAltaSupervisores.resx">
+      <DependentUpon>FRMAltaSupervisores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERUSUARIOS\FRMBajaAdministradores.resx">
+      <DependentUpon>FRMBajaAdministradores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERUSUARIOS\FRMBajaAreas.resx">
+      <DependentUpon>FRMBajaAreas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERUSUARIOS\FRMBajaSupervisores.resx">
+      <DependentUpon>FRMBajaSupervisores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERUSUARIOS\FRMCambioSupervisor.resx">
+      <DependentUpon>FRMCambioSupervisor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERUSUARIOS\FRMListaAdministradores.resx">
+      <DependentUpon>FRMListaAdministradores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERUSUARIOS\FRMNuevoSuperuser.resx">
+      <DependentUpon>FRMNuevoSuperuser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERUSUARIOS\FRMSuperusuario.resx">
+      <DependentUpon>FRMSuperusuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\EMPLEADOS\FRMTareasEmpleado.resx">
+      <DependentUpon>FRMTareasEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\LOGIN, REGISTRO Y DATOS PERSO\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FRMAltaEmpleados.resx">
+    <EmbeddedResource Include="Formularios\ADMINISTRADORES\FRMAltaEmpleados.resx">
       <DependentUpon>FRMAltaEmpleados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FRMAdmin.resx">
+    <EmbeddedResource Include="Formularios\ADMINISTRADORES\FRMAdmin.resx">
       <DependentUpon>FRMAdmin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FRMBajaEmpledos.resx">
+    <EmbeddedResource Include="Formularios\ADMINISTRADORES\FRMBajaEmpledos.resx">
       <DependentUpon>FRMBajaEmpledos.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FRMListaAreas.resx">
+    <EmbeddedResource Include="Formularios\EMPLEADOS\FRMEpleado.resx">
+      <DependentUpon>FRMEpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\ADMINISTRADORES\FRMListaAreas.resx">
       <DependentUpon>FRMListaAreas.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FRMListaEmpleados.resx">
+    <EmbeddedResource Include="Formularios\ADMINISTRADORES\FRMListaEmpleados.resx">
       <DependentUpon>FRMListaEmpleados.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FRMListaSupervisores.resx">
+    <EmbeddedResource Include="Formularios\ADMINISTRADORES\FRMListaSupervisores.resx">
       <DependentUpon>FRMListaSupervisores.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Formularios\FRMRegistro.resx">
+    <EmbeddedResource Include="Formularios\LOGIN, REGISTRO Y DATOS PERSO\FRMRegistro.resx">
       <DependentUpon>FRMRegistro.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERVISORES\FRMAsignarTareas.resx">
+      <DependentUpon>FRMAsignarTareas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\LOGIN, REGISTRO Y DATOS PERSO\FRMDatosPersonales.resx">
+      <DependentUpon>FRMDatosPersonales.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERVISORES\FRMListaEmpleadosDeArea.resx">
+      <DependentUpon>FRMListaEmpleadosDeArea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERVISORES\FRMSupervisores.resx">
+      <DependentUpon>FRMSupervisores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\SUPERVISORES\FRMVerTareas.resx">
+      <DependentUpon>FRMVerTareas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

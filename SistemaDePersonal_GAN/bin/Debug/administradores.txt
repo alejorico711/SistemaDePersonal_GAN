@@ -1,0 +1,6 @@
+DNI;Nombre;Apellido;Email;FechaIngreso
+47190174;Alejo;Rico;alejorico711@gmail.com;12/05/2006
+47190175;Ana;Gómez;anagomez711@gmail.com;15/07/2008
+47290176;Beatriz;López;beatrizlopez711@gmail.com;20/08/2009
+47390177;Carlos;Martínez;carlosmartinez711@gmail.com;25/09/2010
+47490178;Daniel;Rodríguez;danielrodriguez711@gmail.com;30/10/2011
