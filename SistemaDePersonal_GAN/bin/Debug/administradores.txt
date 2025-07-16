@@ -4,3 +4,4 @@ DNI;Nombre;Apellido;Email;FechaIngreso
 47290176;Beatriz;López;beatrizlopez711@gmail.com;20/08/2009
 47390177;Carlos;Martínez;carlosmartinez711@gmail.com;25/09/2010
 47490178;Daniel;Rodríguez;danielrodriguez711@gmail.com;30/10/2011
+46732931;Luana;Castro;lucarocastro@gmail.com;15/07/2025

@@ -44,3 +44,4 @@ DNI;CONTRASEÑA;NIVEL(0-no dado de alta, 1-adminsitrador, 2-supervisor, 3-emplea
 11111111;11111111;4
 47255186;tomi0606;3
 22222222;22222222;4
+46732931;luma1902;1

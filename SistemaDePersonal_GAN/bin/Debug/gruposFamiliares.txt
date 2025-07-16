@@ -7,3 +7,6 @@ DNIEmpleado;IDFamiliar;Nombre;Apellido;Relacion;FechaNacimiento
 47255186;1;Orlando;Pignatato;Padre;02/01/1975
 47255186;2;Lorena;Fernandez;Madre;02/01/1976
 47255186;3;Guadalupe;Pignataro;Hermano;18/02/2001
+46732931;1;Julio;Castro;Padre;06/09/1971
+46732931;2;Lorena;Sanchez;Madre;18/05/1975
+46732931;3;Malena;Castro;Hermano;02/01/2007

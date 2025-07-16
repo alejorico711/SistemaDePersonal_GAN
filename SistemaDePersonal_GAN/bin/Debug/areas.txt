@@ -5,7 +5,7 @@ A03;Finanzas;Control de presupuestos;46619675
 A04;Marketing;Promoción de productos;46719676
 A05;Ventas;Gestión de clientes;46819677
 A06;Logística;Distribución de mercancías;46919678
-A07;Atención al Cliente;Resolución de consultas;47019679
+A07;Atención al Cliente;Resolución de consultas;46419673
 A08;Producción;Fabrica de productos;47119680
 A09;Calidad;Control de calidad;47219681
 A10;Seguridad;Protección de instalaciones;47319682

@@ -94,6 +94,35 @@ namespace SistemaDePersonal_GAN.Formularios
             }
             File.Delete("usuarios.txt");
             File.Move("aux1.txt", "usuarios.txt");
+
+            using (FileStream fs = new FileStream("empleados.txt", FileMode.Open, FileAccess.Read))
+            using (StreamReader sr = new StreamReader(fs))
+            using (FileStream fs1 = new FileStream("aux1.txt", FileMode.OpenOrCreate, FileAccess.Write))
+            using (StreamWriter sw = new StreamWriter(fs1))
+            {
+                string linea = "";
+                string[] vl = new string[0];
+                linea = sr.ReadLine();
+                sw.Write(linea);
+                linea = sr.ReadLine();
+                while (linea != null)
+                {
+                    vl = linea.Split(';');
+
+                    if (vl[0] == DNI)
+                    {
+                        sw.Write(Environment.NewLine + vl[0] + ';' + vl[1] + ';' + vl[2] + ';' + vl[3] + ';' + vl[4] + ';' + "NULL");
+                    }
+                    else
+                    {
+                        sw.Write(Environment.NewLine + vl[0] + ';' + vl[1] + ';' + vl[2] + ';' + vl[3] + ';' + vl[4] + ';' + vl[5]);
+                    }
+                    linea = sr.ReadLine();
+                }
+            }
+
+            File.Delete("empleados.txt");
+            File.Move("aux1.txt", "empleados.txt");
             MessageBox.Show("Usuario dado de baja con exito");
         }
     }

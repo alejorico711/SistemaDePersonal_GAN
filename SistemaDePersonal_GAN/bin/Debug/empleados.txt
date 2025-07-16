@@ -1,4 +1,6 @@
 DNI;Nombre;Apellido;Email;FechaIngreso;Area
+47590179;Elena;Sánchez;elenasanchez711@gmail.com;05/11/2012;A07
+47890182;Héctor;Ramírez;hectormarquez711@gmail.com;20/02/2015;A01
 94958731;Nicolás;Antonopoulos;nicantonopoulos@gmail.com;15/09/2005;A01
 94958732;Laura;Fernández;laurafernandez@gmail.com;20/10/2006;A02
 94958733;Pedro;Gómez;pedrogomez@gmail.com;25/11/2007;A03
@@ -9,8 +11,6 @@ DNI;Nombre;Apellido;Email;FechaIngreso;Area
 94958738;Lucía;Martínez;luciamartinez@gmail.com;20/04/2012;A08
 94958739;José;Hernández;josehernandez@gmail.com;25/05/2013;A09
 94958750;Isabel;Hernández;isabelhernandez@gmail.com;20/04/2024;A10
-47590179;Elena;Sánchez;elenasanchez711@gmail.com;05/11/2012;NULL
+47255186;Julian;Pignataro;pignatarojulian66@gmail.com;14/07/2025;A01
 47690180;Francisco;García;franciscogarcia711@gmail.com;10/12/2013;NULL
 47790181;Gloria;Pérez;gloriaperez711@gmail.com;15/01/2014;NULL
-47890182;Héctor;Ramírez;hectormarquez711@gmail.com;20/02/2015;NULL
-47255186;Julian;Pignataro;pignatarojulian66@gmail.com;14/07/2025;A01
